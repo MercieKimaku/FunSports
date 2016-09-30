@@ -42,12 +42,12 @@
         Date= @"date";
         Amount= @"amount";
         Photo_url= @"photo_url";
-   // _category_id=@"1";
+    //_category_id=@"1";
     NSString *status=@"1";
     NSString *facebook_id=@"1";
-    NSString *category_id =@"1";
+  //  NSString *category_id =@"1";
     
-    NSString *url=[NSString stringWithFormat:@"http://whuzgoin.com/FunMoments/event.php?category_id=%@&status=%@&facebook_id=%@",category_id,status,facebook_id];
+    NSString *url=[NSString stringWithFormat:@"http://whuzgoin.com/FunMoments/event.php?category_id=%@&status=%@&facebook_id=%@",_category_id,status,facebook_id];
     
     myEvents = [[NSMutableArray alloc] init];
 NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];

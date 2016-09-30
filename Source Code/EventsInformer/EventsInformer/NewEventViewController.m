@@ -55,7 +55,10 @@ NSString *dateSelected;
     if (!conn) {
         NSLog(@"Failed to connect to server");
     }
+    UIAlertView *updateAlert = [[UIAlertView alloc] initWithTitle: @"Event Confirmation" message: @"Do u really want to Add Event?" delegate: self cancelButtonTitle: @"YES"  otherButtonTitles:@"NO",nil];
     
+    [updateAlert show];
+
 }
 
 -(void) connection:(NSURLConnection *)connection didReceiveData:(nonnull NSData *)data{
