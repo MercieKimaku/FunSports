@@ -4,5 +4,6 @@ Login using your facebook account, this enables us to get access to your profile
 Select a sport category of your choice. The fun sports on offer are racing, cycling, swimming and paintball.
 View the upcoming scheduled events, organisation hosting the event, the date and the cost for taking part in the event.
 After selecting the event of choice, kindly contact the hosting company for more details.
-Add event enables event organisers to add a new event.
+For event organisers the add event is a special feature that allows them to add a new event.
+FunSports is here to change how we spend our weekends.
 
